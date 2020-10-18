@@ -56,6 +56,8 @@
 		EC37C47E253C821B003254D6 /* WebViewDEMO */ = {
 			isa = PBXGroup;
 			children = (
+				EC37C495253C86C4003254D6 /* extentions */,
+				EC37C494253C86A9003254D6 /* views */,
 				EC37C47F253C821B003254D6 /* AppDelegate.swift */,
 				EC37C481253C821B003254D6 /* SceneDelegate.swift */,
 				EC37C483253C821B003254D6 /* ViewController.swift */,
@@ -65,6 +67,20 @@
 				EC37C48D253C821D003254D6 /* Info.plist */,
 			);
 			path = WebViewDEMO;
+			sourceTree = "<group>";
+		};
+		EC37C494253C86A9003254D6 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EC37C495253C86C4003254D6 /* extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6YVPNR3YC;
 				INFOPLIST_FILE = WebViewDEMO/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6YVPNR3YC;
 				INFOPLIST_FILE = WebViewDEMO/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
